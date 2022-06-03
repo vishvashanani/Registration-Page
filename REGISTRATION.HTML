@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>
+        Felix-it
+    </title>
+    <style type="text/css">
+        .demo {
+            height: 1000px;
+            width: 1200px;
+            margin-left: 200px;
+            color: black;
+            font-size: 25px;
+            background-image: url(EXCLUSIVE_-3.png);
+            margin-top: 20px;
+        }
+
+        input[type=text] {
+            width: 100%;
+            padding: 12px 20px;
+            margin: 8px 0;
+            box-sizing: border-box;
+            border-radius: 10px 10px 10px 10px;
+            color: black;
+            font-size: 15px;
+        }
+
+        input[type=text]:hover {
+
+            background-color: red;
+            transition-duration: 5s;
+            padding: 12px 20px;
+            margin: 8px 0;
+        }
+
+        input[type=Email]{
+            width: 100%;
+            padding: 12px 20px;
+            margin: 8px 0;
+            box-sizing: border-box;
+            border-radius: 10px 10px 10px 10px;
+            color: black;
+            font-size: 15px;
+        }
+
+        input[type=Email]:hover{
+
+            background-color: red;
+            transition-duration: 5s;
+        }
+        input[type=tel]{
+            width: 100%;
+            padding: 12px 20px;
+            margin: 8px 0;
+            box-sizing: border-box;
+            border-radius: 10px 10px 10px 10px;
+            color: black;
+            font-size: 15px;
+        }
+
+        input[type=tel]:hover{
+
+            background-color: red;
+            transition-duration: 5s;
+        }
+        input[type=Password]{
+            width: 100%;
+            padding: 12px 20px;
+            margin: 8px 0;
+            box-sizing: border-box;
+            border-radius: 10px 10px 10px 10px;
+            color: black;
+            font-size: 15px;
+        }
+
+        input[type=Password]:hover{
+
+            background-color: red;
+            transition-duration: 5s;
+        }
+        input[type=Date]{
+            width: 100%;
+            padding: 12px 20px;
+            margin: 8px 0;
+            box-sizing: border-box;
+            border-radius: 10px 10px 10px 10px;
+            color: black;
+            font-size: 15px;
+        }
+
+        input[type=Date]:hover{
+
+            background-color: red;
+            transition-duration: 5s;
+        }
+       
+    </style>
+</head>
+
+<body>
+
+    <div class="demo">
+
+        <form name="f1" method="post" action="login.html">
+
+            <table border="1" align="center">
+                <tr align="center"> 
+                    <td colspan="2">
+                        <h1>REGISTRATION FORM</h1>
+                    </td>
+                </tr>
+                <tr>
+                    <td>Enter First Name</td>
+                    <td><input type="text" name="t1" placeholder="Enter First Name"></td>
+                </tr>
+                <tr>
+                    <td>Enter Middle Name</td>
+                    <td><input type="text" name="t2" placeholder="Enter Middle Name"></td>
+                </tr>
+                <tr>
+                    <td>Enter Last Name</td>
+                    <td><input type="text" name="t3" placeholder="Enter Last Name"></td>
+                </tr>
+                <tr>
+                    <td>Date Of Birth</td>
+                    <td><input type="date" name="bday"></td>
+                </tr>
+                <tr>
+                    <td>Gender</td>
+                    <td><input type="radio" name="r1">Male
+                        <input type="radio" name="r1">Female
+                        <input type="radio" name="r1">Other
+                    </td>
+                </tr>
+                <tr>
+                    <td>E-mail</td>
+                    <td><input type="email" name="p1" placeholder="Enter Email Adress"></td>
+
+                </tr>
+                <tr>
+                    <td>Phone Number</td>
+                    <td><input type="tel" name="p1" placeholder="Enter Phone Number"></td>
+
+                </tr>
+                <tr>
+                    <td>Address</td>
+                    <td><textarea rows="5" cols=15></textarea></td>
+                </tr>
+                <tr>
+                    <td>Hobbies</td>
+                    <td><input type="checkbox" name="c1">Singing
+                        <input type="checkbox" name="c1">Music
+                        <input type="checkbox" name="c1">Dancing
+                        <input type="checkbox" name="c1">Reading
+                        <input type="checkbox" name="c1">Tracking
+                        <input type="checkbox" name="c1">Traveling
+                    </td>
+                </tr>
+                <tr>
+                    <td>City</td>
+                    <td><select>
+                            <option>Choose city</option>
+                            <option>Ahmedabad</option>
+                            <option> Surat</option>
+                            <option>Vadodra</option>
+                            <option>Bharuch</option>
+                            <option> Rajkot</option>
+                            <option>Junagadh</option>
+                            <option>Vapi</option>
+                        </select></td>
+                </tr>
+                <tr>
+                    <td>Photo</td>
+                    <td><input type="file"></td>
+                </tr>
+                <tr>
+                    <td>User Name</td>
+                    <td><input type="text" placeholder="Enter User Name"></td>
+                </tr>
+                <tr>
+                    <td>Password</td>
+                    <td><input type="password" placeholder="Enter Password"></td>
+                </tr>
+                <tr>
+                    <td><input type="submit" value="Submit" style="font-size: 20px;"></td>
+                    <td><input type="reset" value="Reset" style="font-size: 20px;"></td>
+                </tr>
+            </table>
+
+        </form>
+    </div>
+
+
+</body>
+
+</html>
